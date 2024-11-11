@@ -25,7 +25,7 @@ def split_dataset(file_path, label_column, test_fraction=0.2, random_state=42, s
         df_label_0_train = df_label_0.sample(n = 200, random_state=random_state)
         df_label_0_test = df_label_0.drop(df_label_0_train.index)
 
-        df_label_1_train = df_label_1.sample(n = 250, random_state=random_state)
+        df_label_1_train = df_label_1.sample(n = 200, random_state=random_state)
         df_label_1_test = df_label_1.drop(df_label_1_train.index)
     
     else:
