@@ -32,9 +32,9 @@
   - Use GPT models to generate new datapoints.
     - Models: `gpt-4o-2024-08-06`, `chatgpt-4o-latest`.
   - Prompts:
-    - **v1**: [Describe Prompt]
-    - **v2**: [Describe Prompt]
-    - **v3**: [Describe Prompt]
+    - **v1**: Zero-shots. No example in the prompt.
+    - **v2**: Examples only contain patient transcripts. Contains instructions about using (.) (..) to represent pauses.
+    - **v3**: Deletes some instructions for special tokens usage.
     - **v4**: A comparable version for patient and control data.
 
 ---
