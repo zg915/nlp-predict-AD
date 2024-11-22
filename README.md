@@ -19,8 +19,8 @@
   - Perform train-test split (400 vs. 149 samples).
      - Ensure train set is balanced (200 vs. 200).
   - Versions:
-  - **v1**: Cleaned utterances containing only patient speech.
-  - **v2**: Cleaned utterances including both investigator and patient speech.
+    - **v1**: Cleaned utterances containing only patient speech.
+    - **v2**: Cleaned utterances including both investigator and patient speech.
 
 ---
 
@@ -48,9 +48,9 @@
   - `data/train_complete_v1_800.csv`
   - `data/test_complete_v1_149.csv`
 - **Process**:
-  1. Concatenate generated data with the true training set.
-  2. Remove speech from investigators.
-  3. Remove any remaining special tokens.
+  - Concatenate generated data with the true training set.
+  - Remove speech from investigators.
+  - Remove any remaining special tokens.
 
 ---
 
