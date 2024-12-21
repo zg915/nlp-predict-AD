@@ -51,6 +51,11 @@
   - Concatenate generated data with the true training set.
   - Remove speech from investigators.
   - Remove any remaining special tokens.
+- Versions:
+  - **v1**: Only PAR utter.
+  - **v2**: Both PAR and INV utter.
+  - **v3**: Only PAR utter, use GPT to match pattern, but not restricting on cookie task.
+  - **v4**: Only PAR utter, use GPT to swipe words with random words as augmentation.
 
 ---
 
